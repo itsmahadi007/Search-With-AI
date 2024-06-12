@@ -30,4 +30,4 @@ ranked_indices = np.argsort(ranks)[::-1]
 print("Query: ", query)
 print("Ranked Results:")
 for idx in ranked_indices:
-    print(f"{ranks[idx]:.2f}\t{corpus[idx]}")
+    print(f"{ranks[idx]:.2f}\t{corpus[idx]} \t (Index: {idx})")
